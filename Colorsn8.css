@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #e9eff5;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.breadcrumb {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 0;
+    text-decoration: none;
+    color: #888;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+    color: #0077ff;
+    border-bottom-color: #0077ff;
+}
+
+.nominee-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.nominee-list p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+table th {
+    background-color: #f0f4f8;
+    color: #333;
+    font-weight: bold;
+}
+
+table td {
+    color: #555;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9fafc;
+    font-size: 0.9em;
+    color: #888;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

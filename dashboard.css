@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    height: 100vh;
+    color: #333;
+}
+
+.dashboard-container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #e9edf3;
+    width: 240px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.menu-item .icon {
+    margin-right: 10px;
+}
+
+.menu-item.active, .menu-item:hover {
+    background-color: #d9e3f1;
+    font-weight: bold;
+}
+
+.new-post-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bottom-menu .menu-item {
+    margin-top: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #f5f8fc;
+    padding: 30px;
+    border-radius: 0 8px 8px 0;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.new-post-top {
+    background-color: #f0f4f8;
+    color: #555;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.announcements {
+    margin-top: 20px;
+}
+
+.announcements h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.announcement-list {
+    list-style: none;
+}
+
+.announcement-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.announcement-item .icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.announcement-details h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.announcement-details p {
+    font-size: 14px;
+    color: #666;
+}
+
+.arrow {
+    margin-left: auto;
+    font-size: 18px;
+    color: #333;
+}

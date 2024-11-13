@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Dashboard</title>
+    <link rel="stylesheet" href="Events.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li>Home</li>
+            <li class="active">Events</li>
+            <li>Teams</li>
+            <li>Members</li>
+            <li>Recruits</li>
+            <li>Feedback</li>
+        </ul>
+        <button class="new-event">New event</button>
+        <div class="season-links">
+            <p>Spring season <span>&gt;</span></p>
+            <p>Fall season <span>&gt;</span></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <h1>Events</h1>
+            <button class="new-event-btn">New event</button>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search events by name">
+        </div>
+
+        <div class="tabs">
+            <button class="active">All</button>
+            <button>Upcoming</button>
+            <button>Today</button>
+            <button>Past</button>
+            <button>Canceled</button>
+        </div>
+
+        <div class="event-list">
+            <div class="event-item">
+                <h2>Colors Night 2023</h2>
+                <p>3/5 teams RSVP'd</p>
+                <p>April 27, 2023, 7:00 pm - 10:00 pm</p>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="event-item">
+                <h2>Spring tournament</h2>
+                <p>4/5 teams RSVP'd</p>
+                <p>May 6, 2023, 8:00 am - 5:00 pm</p>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="event-item">
+                <h2>End of year banquet</h2>
+                <p>3/5 teams RSVP'd</p>
+                <p>June 2, 2023, 5:00 pm - 11:00 pm</p>
+                <span class="arrow">&gt;</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
