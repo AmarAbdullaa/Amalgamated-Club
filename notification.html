@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Send Notification</title>
+<link rel="stylesheet" href="notification.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1 class="logo">PEAK</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Venues</a></li>
+                    <li><a href="#">Committees</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#" class="active">Notifications</a></li>
+                </ul>
+            </nav>
+            <button class="new-event-btn">New Event</button>
+        </aside>
+
+        <main class="main-content">
+            <h2>Send a notification</h2>
+            <p class="subheading">This notification will be sent to all event stakeholders</p>
+            
+            <form class="notification-form">
+                <label for="event-select">Select an event</label>
+                <select id="event-select">
+                    <option>Search for an event</option>
+                </select>
+                
+                <label for="type-select">Select a type</label>
+                <select id="type-select">
+                    <option>Choose a notification type</option>
+                </select>
+                
+                <label for="message">Notification message</label>
+                <textarea id="message" placeholder="Write your notification message here"></textarea>
+                
+                <div class="preview">
+                    <span class="preview-icon">👁️</span>
+                    <p class="preview-text">Preview<br><span class="preview-example">Example: 'Event updated: New date'</span></p>
+                </div>
+                
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

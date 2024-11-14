@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventory Requests</title>
+<link rel="stylesheet" href="inventory.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#" class="active">Inventory</a></li>
+                    <li><a href="#">Budgets</a></li>
+                    <li><a href="#">PEAK Elite</a></li>
+                </ul>
+            </nav>
+            <button class="new-request-btn">New Request</button>
+            <footer class="footer">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms</a>
+            </footer>
+        </aside>
+        
+        <main class="main-content">
+            <h1>Inventory Requests</h1>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Requester</th>
+                        <th>Date</th>
+                        <th>Items</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lacrosse</td>
+                        <td>Jan 30</td>
+                        <td>3x Lax Balls</td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Volleyball</td>
+                        <td>Jan 30</td>
+                        <td>1x Net</td>
+                        <td><span class="status approved">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <td>Basketball</td>
+                        <td>Jan 25</td>
+                        <td>2x Basketballs</td>
+                        <td><span class="status in-progress">In Progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>Soccer</td>
+                        <td>Jan 20</td>
+                        <td>1x Goal</td>
+                        <td><span class="status approved">Approved</span></td>
+                    </tr>
+                    <tr>
+                        <td>Baseball</td>
+                        <td>Jan 15</td>
+                        <td>3x Bats</td>
+                        <td><span class="status declined">Declined</span></td>
+                    </tr>
+                    <tr>
+                        <td>Swimming</td>
+                        <td>Jan 10</td>
+                        <td>4x Goggles</td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>Tennis</td>
+                        <td>Jan 5</td>
+                        <td>5x Balls</td>
+                        <td><span class="status in-progress">In Progress</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>
