@@ -7,9 +7,12 @@
     font-family: Arial, sans-serif;
 }
 
-body {
+body
+{
     background-color: #f4f7fb;
+
 }
+
 
 .container {
     display: flex;
